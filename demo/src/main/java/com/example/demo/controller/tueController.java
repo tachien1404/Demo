@@ -9,6 +9,8 @@ public class tueController {
 
 	@RequestMapping("/alo")
 	public String tue(Model model) {
+
+		
 		model.addAttribute("tue", "DM có được không....clm");
 		return "alo.html";
 	}
